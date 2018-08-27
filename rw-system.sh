@@ -135,3 +135,5 @@ for f in /vendor/lib/mtk-ril.so /vendor/lib64/mtk-ril.so;do
     chcon "$ctxt" /mnt/phh/$b
     mount -o bind /mnt/phh/$b $f
 done
+
+mount -o bind /system/phh/empty /vendor/overlay/SysuiDarkTheme/SysuiDarkTheme.apk || true
