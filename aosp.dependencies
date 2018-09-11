@@ -16,5 +16,11 @@
     "target_path": "vendor/vndk-tests",
     "branch": "master",
     "remote": "github"
+  },
+  {
+    "repository": "phhusson/vendor_interfaces",
+    "target_path": "vendor/interfaces",
+    "branch": "master",
+    "remote": "github"
   }
 ]
